@@ -1,6 +1,6 @@
 document.getElementById("shapeimg");
 
-onmouseover="mOver("shapeimg")" onmouseout="mOut("shapeimg")" ;
+onmouseover="mOver(this)" onmouseout="mOut(this)" ;
 
 
 function mOver(obj) {
