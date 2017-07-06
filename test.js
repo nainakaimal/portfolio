@@ -1,12 +1,12 @@
 document.getElementById("shapeimg");
 
-onmouseover="mOver(this)" onmouseout="mOut(this)" ;
+onmouseover="mOver(shapeimg)" onmouseout="mOut(this)" ;
 
 
 function mOver(obj) {
-    obj.innerHTML = img src="Shapebw.png"
+    obj.innerHTML = img src="Shape.png"
 }
 
 function mOut(obj) {
-    obj.innerHTML = img src="Shape.png"
+    obj.innerHTML = img src="Shapebw.png"
 }
