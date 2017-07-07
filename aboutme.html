@@ -15,6 +15,14 @@
   function mOut() {
    document.getElementById('shapeimg').src ="shape1.png";
   }
+    
+   function mOver1() {
+     document.getElementById('obamicon').src ="city.jpg";
+  }
+
+  function mOut1() {
+   document.getElementById('obamicon').src ="obamicon.png";
+  }
   </script>
   
     </head>
@@ -89,7 +97,7 @@
     </tr>
     
     <tr>
-     <td style="border:2px solid black"> <center> <img src="city.jpg" style=width:235px;height:133px;"/> <br /> <img src="obamicon.png" style="width:235px;height:133px;"/> </center> </td>
+     <td style="border:2px solid black"> <center> <img src="obamicon.png" id="obamicon" onmouseover="mOver1()" onmouseout="mOut1()" style=width:235px;height:133px;"/> </center> </td>
      <td style="border:2px solid black"> Obamicon: As part of his 2008 Presidential campaign, Barack Obama released a poster of a certain style. 
        Using Python, I worked with my peers to recreate this filter. The two photos to the left show the before 
        and after of this filter being applied to a photo of the CCTV Headquarters in Beijing, China. </td>
