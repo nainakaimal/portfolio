@@ -29,6 +29,13 @@
      document.getElementById('obamicon').src ="obamicon.png";
   }
     
+    function mOver2() {
+     document.getElementById('dictionary').src ="dictionary.png";
+  }
+
+  function mOut2() {
+     document.getElementById('dictionary').src ="dictionary2.png";
+  } 
   </script>  
     
     
@@ -107,9 +114,16 @@
     
     <tr>
       <td style="border:2px solid black"> <center> <img src="dictionary.png" style="width:235px;height:150px;"/> </center> </td>
-      <td style="border:2px solid black"> Django Blog: Thus we make up our minds, change our minds or are of two minds about something. One of the key attributes of the mind in this sense is that it is a private sphere to which no one but the owner has access. No one else can know our mind. They can only interpret what we consciously or unconsciously communicate. </td>
+      <td style="border:2px solid black"> Dictionary: Thus we make up our minds, change our minds or are of two minds about something. One of the key attributes of the mind in this sense is that it is a private sphere to which no one but the owner has access. No one else can know our mind. They can only interpret what we consciously or unconsciously communicate. </td>
       
     </tr> 
+    
+    <tr>
+     <td style="border:2px solid black"> <center> <img src="dictionary.png" id="dictionary" onmouseover=mOver2() onmouseout=mOut2() style="width:235px;height:150px;"/> </center> </td>
+     <td style="border:2px solid black"> Dictionary: As part of his 2008 Presidential campaign, Barack Obama released a poster of a certain style. 
+       Using Python, I worked with my peers to recreate this filter. Move your mouse over the photo to see before and after shots using this filter applied to a photo of the CCTV Headquarters in Beijing, China. </td>
+    </tr>
+    
   </table> 
 </center>
   
